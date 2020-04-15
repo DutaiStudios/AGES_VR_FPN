@@ -731,6 +731,13 @@
     <Compile Include="Assets\Foreign Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
     <Compile Include="Assets\Foreign Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\Foreign Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
+    <Compile Include="Assets\Scripts\FlashlightController.cs" />
+    <Compile Include="Assets\Scripts\GrabRange.cs" />
+    <Compile Include="Assets\Scripts\GreenlightControl.cs" />
+    <Compile Include="Assets\Scripts\Mouse_Cam.cs" />
+    <Compile Include="Assets\Scripts\Player_Controller.cs" />
+    <Compile Include="Assets\Scripts\RedlightControl.cs" />
+    <Compile Include="Assets\Scripts\SceneSpawner.cs" />
     <None Include="Assets\Foreign Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Foreign Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\Foreign Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
@@ -774,40 +781,52 @@
     <None Include="Assets\Foreign Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Foreign Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -981,13 +1000,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

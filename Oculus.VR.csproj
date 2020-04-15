@@ -146,13 +146,13 @@
     <None Include="Assets\Foreign Assets\Oculus\VR\Resources\Underlay Impostor.shader" />
     <None Include="Assets\Foreign Assets\Oculus\VR\Plugins\placeholder.txt" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -341,19 +341,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/VR/AGES_VR_FPN/AGES_VR_FPN/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
